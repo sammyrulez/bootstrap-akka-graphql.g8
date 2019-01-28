@@ -13,7 +13,7 @@ class AuthService(auth : Authentication)(implicit executionContext: ExecutionCon
       if (jwtCheck == null) {
         None
       } else {
-        Some(jwtCheck.asScala.toMap)
+        Some(jwtCheck)
       }
     }
   }
