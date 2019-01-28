@@ -1,5 +1,5 @@
 name := "bootstrap-akka-graphql"
-organization := "de.innfactory"
+organization := "$package$"
 version := "1.0.0"
 scalaVersion := Version.Scala
 
