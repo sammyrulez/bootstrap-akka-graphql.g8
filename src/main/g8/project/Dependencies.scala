@@ -1,28 +1,23 @@
 import sbt._
 
 object Version {
-  final val akka = "2.5.3"
-  final val akkaHttp = "10.0.8"
+  final val akka = "2.5.19"
+  final val akkaHttp = "10.1.7"
   final val akkaHttpSprayJson =  "10.0.9"
-  final val Scala = "2.11.8"
+  final val Scala = "2.12.8"
   final val AkkaLog4j = "1.4.0"
   final val Log4j = "2.8.2"
-  final val swagger = "1.5.14"
-  final val swaggerAkka = "0.9.2"
-  final val akkaHttpCors = "0.2.1"
+  final val akkaHttpCors = "0.3.4"
   final val slickRepo = "1.4.3"
   final val postgresql = "9.4-1206-jdbc42"
-  final val nimbusds = "4.23"
+  final val nimbusds = "6.7"
   final val slick = "3.2.0"
   final val flyway = "3.2.1"
   final val sangriaSprayJson = "1.0.0"
-  final val sangria = "1.2.2"
+  final val sangria = "1.4.2"
 }
 
 object Library {
-
-  val swagger = "io.swagger" % "swagger-jaxrs" % Version.swagger
-  val swaggerAkka = "com.github.swagger-akka-http" %% "swagger-akka-http" % Version.swaggerAkka
 
   val akkaHttp = "com.typesafe.akka" %% "akka-http" % Version.akkaHttp
   val akkaActor = "com.typesafe.akka" %% "akka-actor" % Version.akka
