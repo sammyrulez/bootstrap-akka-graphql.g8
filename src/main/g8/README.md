@@ -1,19 +1,17 @@
 Akka-http graphQL Bootstrap
 =========================
 
-[![travis-ci.org](https://travis-ci.org/innFactory/bootstrap-akka-graphql.svg?branch=master)](https://travis-ci.org/innFactory/bootstrap-akka-graphql)
-[![codecov.io](https://img.shields.io/codecov/c/github/innFactory/bootstrap-akka-graphql/master.svg?style=flat)](https://codecov.io/github/innFactory/bootstrap-akka-graphql)
+[![travis-ci.org](https://travis-ci.org/$package$/$name$.svg?branch=master)](https://travis-ci.org/$package$/$name$)
+[![codecov.io](https://img.shields.io/codecov/c/github/$package$/$name$/master.svg?style=flat)](https://codecov.io/github/$package$/$name$)
 [![shields.io](http://img.shields.io/badge/license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
-[![jonato.de](https://img.shields.io/badge/Version-1.0-brightgreen.svg)](https://innFactory.de)
 
 ## Info
-This is a boilerplate template for a akka graphql microservice with slick and flyway database migration. You can use it to create your own GraphQL Services on top of the lightbend stack.
+*$name$* $description$
 
 ### Requirements
 * JDK8 [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html))
 * sbt([http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html))
 * docker for dockerbuild ([https://www.docker.com/community-edition/](https://www.docker.com/community-edition/))
-* aws account if you want to use a cognito userpool for authentifaction ([https://aws.amazon.com/de/](https://aws.amazon.com/de/))
 
 ### Implemented Features
 
@@ -21,7 +19,7 @@ This is a boilerplate template for a akka graphql microservice with slick and fl
 * Integration *sangria* for graphql
 * CRUD Repositorys via *slick-repo* with a sample service with get and add implemented
 * CORS Support via *akka-http-cors*
-* Implemented Authentication with AWS Cognito (JWK) and JWT Token via *nimbusds* (in *Java*) - For Tests All Requests are allowed
+* Implemented Authentication with  JWT Token via *nimbusds* (in *Java*) - For Tests All Requests are allowed
 * Test coverage with *ScalaTest* and *scoverage* code coverage report
 * Ready for *Docker* deployment and *CloudFormation* deployment
 * Config file with optional runtime parameters
@@ -31,8 +29,7 @@ This is a boilerplate template for a akka graphql microservice with slick and fl
 * Logging via *Log4j* with a xml template
 
 ## Configuration
-* Start a PostgreSQL Database via RDS, Docker or locally
-* Create a Userpool with AWS Cognito if you need AWS Authentication.
+* Start a PostgreSQL Database with Docker or locally
 * Configure your application.conf and the docker.conf (`src/main/resources/`) (application.conf in test has to stay as it is, for running in a in-memory postgresql instance)
 
 ### Environment variables 
@@ -84,12 +81,6 @@ To generate a coverage report afterwars the testrun, call:
 
 ```sbt coverageReport```
 
-## More Info
-We will write a blog post soon on innFactory about microservice development.
 
 ## Copyright & Contributers
-Tobias Jonas
-
-Copyright (C) 2017 [innFactory Cloud- & DataEngineering](https://innFactory.de)
-
-Published under the Apache 2 License.
+sbt base template by Tobias Jonas (https://innFactory.de) updates by Sam Reghenzi

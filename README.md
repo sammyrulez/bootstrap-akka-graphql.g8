@@ -2,7 +2,6 @@ Akka-http graphQL Bootstrap
 =========================
 
 [![travis-ci.org](https://travis-ci.org/sammyrulez/bootstrap-akka-graphql.g8.svg?branch=master)](https://travis-ci.org/sammyrulez/bootstrap-akka-graphql.g8)
-[![codecov.io](https://img.shields.io/codecov/c/github/innFactory/bootstrap-akka-graphql/master.svg?style=flat)](https://codecov.io/github/innFactory/bootstrap-akka-graphql)
 [![shields.io](http://img.shields.io/badge/license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
 [![jonato.de](https://img.shields.io/badge/Version-1.0-brightgreen.svg)](https://innFactory.de)
 
@@ -84,12 +83,7 @@ To generate a coverage report afterwars the testrun, call:
 
 ```sbt coverageReport```
 
-## More Info
-We will write a blog post soon on innFactory about microservice development.
-
 ## Copyright & Contributers
-Tobias Jonas
-
-Copyright (C) 2017 [innFactory Cloud- & DataEngineering](https://innFactory.de)
+Fork from Tobias Jonas https://github.com/innFactory/bootstrap-akka-graphql
 
 Published under the Apache 2 License.
