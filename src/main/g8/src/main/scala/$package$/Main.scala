@@ -7,7 +7,7 @@ import akka.stream.ActorMaterializer
 import $package$.http.HttpService
 import $package$.graphql.GraphQLContextServices
 import $package$.services.{AuthService, DummyService}
-import $package$.utils.{AWSCognitoValidation, AutoValidate, Configuration, FlywayService}
+import $package$.utils.{ AutoValidate, Configuration, FlywayService}
 
 import scala.concurrent.ExecutionContext
 
