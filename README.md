@@ -4,7 +4,7 @@ Akka-http graphQL Bootstrap
 [![travis-ci.org](https://travis-ci.org/sammyrulez/bootstrap-akka-graphql.g8.svg?branch=master)](https://travis-ci.org/sammyrulez/bootstrap-akka-graphql.g8)
 [![shields.io](http://img.shields.io/badge/license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
 [![sammyrulez.com](https://img.shields.io/badge/Version-1.0-brightgreen.svg)](http://sammyrulez.com)
-[![howtographql.com](ttps://img.shields.io/badge/graphql-ok-green.svg)](https://howtographql.com)
+[![howtographql.com](https://img.shields.io/badge/graphql-ok-green.svg)](https://howtographql.com)
 
 
 
