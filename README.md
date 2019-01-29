@@ -3,7 +3,11 @@ Akka-http graphQL Bootstrap
 
 [![travis-ci.org](https://travis-ci.org/sammyrulez/bootstrap-akka-graphql.g8.svg?branch=master)](https://travis-ci.org/sammyrulez/bootstrap-akka-graphql.g8)
 [![shields.io](http://img.shields.io/badge/license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
-[![jonato.de](https://img.shields.io/badge/Version-1.0-brightgreen.svg)](https://innFactory.de)
+[![sammyrulez.com](https://img.shields.io/badge/Version-1.0-brightgreen.svg)](https://sammyrulez.com)
+[![howtographql.com](https://img.shields.io/badge/graphql-ok-green.svg)]
+(https://howtographql.com)
+
+
 
 ## Info
 This is a boilerplate template for a akka graphql microservice with slick and flyway database migration. You can use it to create your own GraphQL Services on top of the lightbend stack.
