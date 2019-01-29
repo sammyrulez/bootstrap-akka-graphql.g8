@@ -2,5 +2,7 @@
 *.log
 *.cache
 .metals
+.bloop
+target
 project/.bloop
 project/target
